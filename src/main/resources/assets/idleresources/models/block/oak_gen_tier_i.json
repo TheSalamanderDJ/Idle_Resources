@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "idleresources:block/oak_gen_tier_i"
+  }
+}

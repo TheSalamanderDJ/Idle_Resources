@@ -1,6 +1,7 @@
 package com.thesalamanderdj.idleresources.item;
 
 import com.thesalamanderdj.idleresources.IdleResources;
+import com.thesalamanderdj.idleresources.item.custom.wooden_crank;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -13,7 +14,7 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, IdleResources.MOD_ID);
 
     public static final RegistryObject<Item> WOODEN_CRANK = ITEMS.register("wooden_crank",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new wooden_crank(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
     public static final RegistryObject<Item> IRON_CRANK = ITEMS.register("iron_crank",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
