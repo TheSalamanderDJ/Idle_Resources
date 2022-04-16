@@ -18,6 +18,9 @@ public class ModItems {
     public static final RegistryObject<Item> IRON_CRANK = ITEMS.register("iron_crank",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
+    public static final RegistryObject<Item> GOLD_CRANK = ITEMS.register("gold_crank",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

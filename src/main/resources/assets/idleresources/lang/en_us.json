@@ -1,4 +1,6 @@
 {
   "item.idleresources.wooden_crank": "Wooden Crank",
-  "item.idleresources.iron_crank": "Iron Crank"
+  "item.idleresources.iron_crank": "Iron Crank",
+  "item.idleresources.gold_crank": "Gold Crank"
+
 }
