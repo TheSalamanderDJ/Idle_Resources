@@ -12,7 +12,7 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, IdleResources.MOD_ID);
 
-    public static final RegistryObject<Item> CRANK = ITEMS.register("crank",
+    public static final RegistryObject<Item> WOODEN_CRANK = ITEMS.register("wooden_crank",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
     public static final RegistryObject<Item> IRON_CRANK = ITEMS.register("iron_crank",

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "idleresources:item/crank"
+    "layer0": "idleresources:item/wooden_crank"
   }
 }
